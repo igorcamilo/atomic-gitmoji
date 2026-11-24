@@ -1,0 +1,26 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "atomic-gitmoji",
+  "version": "0.1.0",
+  "description": "Split mixed Git changes into small, focused commits with Unicode Gitmoji messages.",
+  "author": {
+    "name": "Bitow"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Atomic Gitmoji",
+        "shortDescription": "Focused Gitmoji commits",
+        "longDescription": "Organize mixed changes into focused Git commits. Review each staged diff and write concise Unicode Gitmoji messages.",
+        "developerName": "Bitow",
+        "category": "Developer Tools",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": "Organize the current changes into focused Git commits with Unicode Gitmoji messages.",
+        "logo": "./assets/icon.png",
+        "composerIcon": "./assets/icon.png"
+      }
+    }
+  }
+}

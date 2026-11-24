@@ -1,0 +1,20 @@
+{
+  "name": "atomic-gitmoji",
+  "interface": {
+    "displayName": "Atomic Gitmoji"
+  },
+  "plugins": [
+    {
+      "name": "atomic-gitmoji",
+      "source": {
+        "source": "local",
+        "path": "./plugins/atomic-gitmoji"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
